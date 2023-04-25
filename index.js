@@ -3,7 +3,6 @@ const path = require('node:path');
 const request = require('request');
 const firebase = require("firebase/app");
 const { getDatabase, ref, onValue } = require("firebase/database");
-var serviceAccount = require("./mindcraftproject-45d64-firebase-adminsdk-zvqgz-5b8eb881e0.json");
 
 //init firebase app
 const firebaseConfig = {
